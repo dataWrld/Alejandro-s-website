@@ -48,8 +48,3 @@ a:link{
 h1{
     color: rgb(175, 156, 192);
 }
-.grid{
-    display: flexbox;
-    justify-content: space-between;
-    border: solid;
-}
