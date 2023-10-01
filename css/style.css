@@ -1,7 +1,5 @@
 main{
     font-family:monospace;
-    background-color: rgba(226, 217, 217, 0.637);
-    justify-content: space-between;
     animation: slideIn;
     animation-duration: 5s;
 }
@@ -24,27 +22,34 @@ main{
 @keyframes slideIn{
     from{transform: translateX(150%);}
 }
-.header{
-    text-transform: capitalize;
-    text-align: center;
-    border: solid;
-    border-radius: 30px;
-    border-color: rgb(175, 156, 192);
-    background-color: rgb(199, 228, 230);
-}
 #picme{
     float: right;
     width: 200px;
     height: 250px;
     padding: 5px;
     border: solid;
-    border-color:rgb(175, 156, 192);
+    border-color:rgba(98, 94, 102, 0.418);
     border-radius: 30px;
     margin-right: 20px;
 }
 a:link{
     text-decoration: none;
 }
-h1{
-    color: rgb(175, 156, 192);
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: rgba(0, 0, 0, 0.808);
+  color: white;
+}
+#modetoggle{
+  border-radius: 30px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+  float: right;
+  transform: translateY(-200px)
 }
