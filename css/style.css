@@ -36,7 +36,6 @@ a:link{
     text-decoration: none;
 }
 body {
-  padding: 25px;
   background-color: white;
   color: black;
   font-size: 25px;
@@ -51,5 +50,33 @@ body {
   background-color: rgb(121, 121, 121);
   color: white;
   float: right;
-  transform: translateY(-200px)
+  transform: translateY(-180px)
+}
+#moonicon{
+  float: right;
+  transform: translateY(-180px);
+}
+#flexcontainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#box1,#box2,#box3{
+  width: 345px;
+  height: 50vh;
+  background-color:rgb(206, 216, 224);
+  border-radius: 30px;
+  text-align: center;
+}
+#img1,#img2,#img3{
+  width:300px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 20px;
+}
+header{
+  height: 90vh;
+}
+a:visited{
+  text-decoration-color: white;
 }
